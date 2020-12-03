@@ -1,6 +1,6 @@
 #include <string.h>
 #define IBUS_BUFFSIZE 32    // Max iBus packet size (2 byte header, 14 channels x 2 bytes, 2 byte checksum)
-#define IBUfggggggS_MAXCHANNELS 10 // My TX only has 10 channels, no point in polling the rest
+#define IBUS_MAXCHANNELS 10 // My TX only has 10 channels, no point in polling the rest
 int Channel_1;
 int Channel_2;
 int Channel_3;
